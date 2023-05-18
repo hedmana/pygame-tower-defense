@@ -1,0 +1,25 @@
+{
+	"wave_1" : {
+		"type" : "Type1",
+		"delay" : 40,
+		"HP" : 100,
+		"PointsPer" : 200,
+		"units": 5
+	},
+
+	"wave_2" : {
+		"type" : "Type2",
+		"delay" : 10,
+		"HP" : 200,
+		"PointsPer" : 200,
+		"units": 10
+	},
+
+	"wave_3" : {
+		"type" : "Type3",
+		"delay" : 10,
+		"HP" : 700,
+		"PointsPer" : 200,
+		"units": 10
+	}
+}
