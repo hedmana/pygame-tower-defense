@@ -80,6 +80,7 @@ class Map:
                         temp_row.append(0)
                 data.writerow(temp_row)
     
+        print("Map saved successfully!")
         self.read_map_from_csv()
     
     # Sets up a list of coordinates for the enemies to follow

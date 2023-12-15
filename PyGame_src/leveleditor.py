@@ -26,6 +26,7 @@ class LevelEditor:
         self.engine.get_custom_map().draw()
         
         if self.save_map_button.draw(self.surface):
+            print("Saving map...")
             self.engine.get_map().read_custom_map()
         
         if self.quit_button.draw(self.surface):
