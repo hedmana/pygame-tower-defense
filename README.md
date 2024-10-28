@@ -36,10 +36,10 @@ Make sure to install PyGame and PyQt6 before running the programs.
 pip install pygame, pyqt6
 ```
 
-To run the PyGame version, in the terminal, navigate to the project root directory and execute:
-```python3 PyGame_src/main.py``` on Linux, or:
+To run the PyGame version, in the terminal, navigate to the project root directory and execute
+```python3 PyGame_src/main.py``` on Linux, or
 ``` python PyGame_src/main.py ``` on Windows.
 
-To run the PyQt6 version, in the terminal, navigate to the project root directory and execute:
-```python3 PyQt_src/main.py``` on Linux, or:
+To run the PyQt6 version, in the terminal, navigate to the project root directory and execute
+```python3 PyQt_src/main.py``` on Linux, or
 ```python PyQt_src/main.py``` on Windows.
