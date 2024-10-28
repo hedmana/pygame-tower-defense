@@ -1,7 +1,7 @@
 # Tower Defense Game - PyGame and PyQt6
 
 ## Introduction
-In this repository you will find two different tower defense games, one developed with PyGame and one developed with PyQt6. I developed these two programs as a final project for a Python course at Aalto University. Below you will find a short description of the programs and instructions on how to run them on your computer.
+In this repository you will find two different tower defense games, one developed with PyGame and one developed with PyQt6. I developed these two programs as a final project for a Python course at Aalto University. 
 
 ## PyGame
 
@@ -13,7 +13,7 @@ When running the program the player is greeted by the main menu. The main purpos
 ![Main Menu](assets/main_menu.png)
 
 #### Level Editor
-Here the player is able to create a custom map to play on. The 12X8 map grid is made up of tiles. In the level editor every tile has four modes: road, grass, start, and finnish. To draw a map the player can simply click the different tiles to switch between these four modes. Every map has to start and end at the edge of the grid. Remember to set a start and an end tile before saving the map. If the map is unreadable, a default map will be set.
+In the level editor, the player is able to create a custom map to play on. The map is made up of a 12x8 grid of tiles. In the level editor every tile has four modes: road, grass, start, and finnish. To draw a map the player can simply click the different tiles to switch between these four modes. Every map has to start and end at the edge of the grid. Remember to set a start and an end tile before saving the map. If the map is unreadable, a default map will be set.
 
 ![Level Editor](assets/level_editor.png)
 
@@ -30,26 +30,16 @@ The PyQt6 program is simpler than the PyGame version but it is still a functioni
 ![PyQt game](assets/pyqt.png)
 
 ## Running the Programs
-Before running these programs, make sure that python 3 is installed on your computer. You will also have to install PyGame and PyQt6. PyGame and PyQt6 are installed using pip, which is the package installer for Python. To install pip on Linux, run the following command in the terminal: 
-```
-sudo apt install python3-pip
-```
-To install pip on Windows, follow this tutorial: https://www.dataquest.io/blog/install-pip-windows/
+Make sure to install PyGame and PyQt6 before running the programs.
 
-With pip installed we can now install PyGame and PyQt by executing the following command in the terminal:
 ```
 pip install pygame, pyqt6
 ```
-This command works for both Linux and Windows.
 
-Here's how to run the programs:
-
-1. To run the PyGame version, in the terminal, navigate to the project root directory and execute:
+To run the PyGame version, in the terminal, navigate to the project root directory and execute:
 ```python3 PyGame_src/main.py``` on Linux, or:
 ``` python PyGame_src/main.py ``` on Windows.
 
-2. To run the PyQt6 version, in the terminal, navigate to the project root directory and execute:
+To run the PyQt6 version, in the terminal, navigate to the project root directory and execute:
 ```python3 PyQt_src/main.py``` on Linux, or:
 ```python PyQt_src/main.py``` on Windows.
-
-Have fun playing :D
