@@ -1,4 +1,4 @@
-# Tower Defense Game – PyGame & PyQt6
+# Pygame Tower Defense Game
 
 ## Overview
 This repository contains a tower defense game developed 
